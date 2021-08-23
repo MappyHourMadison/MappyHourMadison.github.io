@@ -1,0 +1,172 @@
+html body {
+    background-color: #222222;
+}
+body {
+  background-color: darkgrey;
+  font-size: 100%
+}
+body#home {
+	background:url('images/back.png') no-repeat top left #b5d0d0;
+	margin-left:150px;
+}
+
+p {
+  color: #FAFAFA; 
+  margin : 0px;
+  padding:  0px; 
+  font-size: 80%;
+}
+h1 {
+  font-family: Avenir;
+  color: indianred;
+  text-shadow:
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000; 
+
+}
+h2 {
+  font-family: Avenir;
+  color: #FAFAFA;
+  text-shadow:
+    -0.7px -0.7px 0 #000,
+    0.7px -0.7px 0 #000,
+    -0.7px 0.7px 0 #000,
+    0.7px 0.7px 0 #000; 
+}
+h3 {
+  font-family: Avenir;
+  color: #FAFAFA;
+  white-space:nowrap;
+  margin:1em 0 0 0;
+}
+h4 {
+  font-family: Avenir; 
+  color: #FAFAFA;
+  white-space:nowrap;
+  margin:1em 0 0 0;
+}
+h6 {
+  font-family: Avenir;
+  color: #FAFAFA;
+  font-size: 60%;
+}
+li {
+  font-family: Avenir;
+  color: #D4D4D4;
+  white-space:nowrap;
+  margin:1em 0 0 0;
+}
+a {
+	color:#1978cf;
+}
+a:hover {
+	color:#fff;
+}
+h3 a,
+h3 a:hover {
+	text-decoration:none;
+}
+#desc {
+	float: left;
+	margin-bottom: 1em;
+	position: relative;
+	white-space:nowrap;
+	font-size:1em;
+}
+#map {
+	border-radius:.125em;
+	border:1px solid #555555;
+	box-shadow: 1px 1px 3px #999;
+	margin: 1px 0;
+	float:left;
+	width:100%;
+	height:53.2em;	
+}
+ul {
+	font-size:.85em;
+	margin:0;
+	padding:0;
+}
+li {
+	margin:0 0 2px 18px;
+}
+#post-it {
+	width:100%;
+	height:40em;
+	margin-left:.1em;
+	padding:1em;
+	float: right;
+	background:#333333;
+	border:1px solid #555555;
+	box-shadow: 1px 1px 3px #999;
+	color:#222222;
+}
+#copy {
+	position:fixed;
+	z-index:1000;
+	right:150px;
+	top:-8px;
+	font-size:.85em;
+	padding:8px 8px 2px 8px;
+	background: #323b44;
+	border: 2px solid #737c85;		
+	border-radius:.7em;
+	opacity: 0.9;
+	box-shadow:0 0 8px #5f7182;
+	color:#eee
+}
+#copy a {
+	color:#ccc;
+	text-decoration:none
+}
+#copy a:hover {
+	color:#fff
+}
+#ribbon {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0;
+	filter: alpha(opacity=80);
+	-khtml-opacity: .8;
+	-moz-opacity: .8;
+	opacity: .8;		
+}
+.contents {
+	float:left;
+	margin:0 2em 2em 0;
+}
+#comments {
+	clear:both;
+}
+
+#brand{
+  color:indianred;
+  font-style: oblique;
+  font-family: Georgia;
+  font-size:30px;
+}
+
+#black{
+  background-color: #1B1B1B;
+}
+#white{
+  background-color: #E5E5E5;
+}
+
+#nospace{
+	margin-top: -0.6em;
+	margin-bottom: -0.6em;
+}
+
+#nospace2{
+	margin-top: -1.5em;
+	margin-bottom: 0em;
+}
+
+#nospace3{
+	margin-top: -0.5em;
+	margin-bottom: 0.2em;
+}
